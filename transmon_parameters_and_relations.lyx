@@ -1,0 +1,889 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Transmon parameters and relations
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="7page%">
+<column alignment="center" valignment="middle" width="10page%">
+<column alignment="center" valignment="middle" width="10page%">
+<column alignment="center" valignment="middle" width="35page%">
+<column alignment="center" valignment="middle" width="15page%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parameter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Definition
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Typical values
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Values explanation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Realtion to other physical parameters
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\omega_{q}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transition frequency from ground state to 1st excited state
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3-10GHz$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+We are interested in making the excitation to the next level unprobable,
+ so: 
+\begin_inset Formula $P_{0\rightarrow1}=\frac{e^{-\frac{hf}{k_{B}T}}}{1+e^{-\frac{hf}{k_{B}T}}}$
+\end_inset
+
+ and we demand 
+\begin_inset Formula $\frac{hf}{k_{B}T}\sim10$
+\end_inset
+
+ to finally get 
+\begin_inset Formula $f\sim10\frac{k_{B}T}{h}$
+\end_inset
+
+.
+ We can use standard RF equipement in the range 
+\begin_inset Formula $3-10GHz$
+\end_inset
+
+ and also our refrigiration capabilites can get us to 
+\begin_inset Formula $\sim14.4-48mK$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{8E_{C}E_{J}}=\sqrt{2\hbar e\frac{I_{0}}{C}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anharmonicity (difference between consecutive transition frequencies)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $100-300MHz$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Trade-off between:
+\end_layout
+
+\begin_layout Plain Layout
+1.
+ Preventing unwanted transitions out of the computational subspace - the
+ anharmonicity defines the minimal pulse duration in order to keep the bandwidth
+ narrow enough to not exceed it.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha_{r}=\frac{\alpha}{E_{01}}\sim\left(\tau_{p}\omega_{01}\right)^{-1}\rightarrow\alpha_{r}^{min}\sim\left(18-600\right)^{-1}$
+\end_inset
+
+ for 
+\begin_inset Formula $\tau_{p}=1-10ns,f_{01}=3-10GHz$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $C=\frac{e^{2}}{2hf}\approx66-200fF$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+2.
+ Smaller 
+\begin_inset Formula $E_{C}$
+\end_inset
+
+ value to enlarge 
+\begin_inset Formula $\frac{E_{J}}{E_{C}}$
+\end_inset
+
+ to maintain nearly 0 offset charge dispersion
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $E_{m}(n_{g})\simeq E_{m}(n_{g}=\frac{1}{4})-\frac{\epsilon_{m}}{2}\cos\left(2\pi n_{g}\right)$
+\end_inset
+
+ and 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\epsilon_{m}\simeq\left(-1\right)^{m}E_{C}\frac{2^{4m+5}}{m!}\sqrt{\frac{2}{\pi}}\left(\frac{E_{j}}{2E_{C}}\right)^{\frac{m}{2}+\frac{3}{4}}e^{-\sqrt{\frac{8E_{J}}{E_{C}}}}$
+\end_inset
+
+ when these expressions only valid for 
+\begin_inset Formula $\frac{E_{j}}{E_{C}}\gg1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-E_{C}=-\frac{e^{2}}{2C}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $g$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Coupling strength
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $20-100MHz$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+To maintain the strong regime we demand 
+\begin_inset Formula $g\gg\kappa,\gamma$
+\end_inset
+
+ which are typically in the few 
+\begin_inset Formula $MHz$
+\end_inset
+
+ region (FIND WHY AND HOW!).
+\end_layout
+
+\begin_layout Plain Layout
+To maintain the dispersive regime we demand 
+\begin_inset Formula $g\ll\Delta$
+\end_inset
+
+ which is typically in the region of the anharmonicity.
+\end_layout
+
+\begin_layout Plain Layout
+Also, the dispersive shift obeys 
+\begin_inset Formula $\chi\simeq\left(\beta eV_{rms}\right)^{2}\left(\frac{E_{j}}{2E_{C}}\right)^{\frac{1}{2}}\frac{E_{C}}{\hbar\Delta_{0}(\hbar\Delta_{0}-E_{C})}$
+\end_inset
+
+ in the limit 
+\begin_inset Formula $\frac{E_{j}}{E_{C}}\gg1$
+\end_inset
+
+ so FIND OUT WHY WE DON'T USE 
+\begin_inset Formula $0<\hbar\Delta_{0}<E_{C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Important note: g increases as Ej/Ec increases! 
+\end_layout
+
+\begin_layout Plain Layout
+2 questions here:
+\end_layout
+
+\begin_layout Plain Layout
+1.
+ how we design 
+\begin_inset Formula $\kappa,\gamma$
+\end_inset
+
+? on what parameters they rely?
+\end_layout
+
+\begin_layout Plain Layout
+2.
+ why we use the regime 
+\begin_inset Formula $\hbar\Delta_{0}<0$
+\end_inset
+
+ for the dispersive shift?
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $g_{ij}\simeq\beta\sqrt{\frac{\alpha}{\varepsilon}}\hbar\omega_{r}\left(\frac{E_{j}}{8E_{C}}\right)^{\frac{1}{4}}$
+\end_inset
+
+ for 
+\begin_inset Formula $\frac{E_{j}}{E_{C}}\gg1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $T_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Qubit decay time (longitudinal decay)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim40-100\mu sec$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{\gamma}$
+\end_inset
+
+, Spontaneous emission: 
+\begin_inset Formula $\frac{12\pi\epsilon_{0}\hbar c^{3}}{\left(2eL\right)^{2}\omega_{q}^{2}}$
+\end_inset
+
+ where 
+\begin_inset Formula $L$
+\end_inset
+
+ is the tunneling distance of Cooper pair across the transmon.
+\end_layout
+
+\begin_layout Plain Layout
+Purcell effect: 
+\begin_inset Formula $\kappa\frac{g^{2}}{\Delta^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Flux coupling: 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $T_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Qubit dephasing time (transverse decay)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\kappa$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resonator decay rate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+hundreds of 
+\begin_inset Formula $kHz$
+\end_inset
+
+ to few 
+\begin_inset Formula $MHz$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Depends on the couling strength to the transmission line: how we can find
+ it? how we design it? Also, there are different coupling strengths for
+ each transmission line mode.
+\end_layout
+
+\begin_layout Plain Layout
+Also depends on the density of states in the region of energies of the cavity,
+ how we can find it? A series of delta functions is too idealized.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2\pi f^{2}\rho$
+\end_inset
+
+ where:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $f$
+\end_inset
+
+ is the couling strength of the cavity to the transmission line
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rho$
+\end_inset
+
+ the density of states in the transition between the cavity states
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\omega_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resonator frequency
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{\sqrt{LC}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Transmon parameters and relations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

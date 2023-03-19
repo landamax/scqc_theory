@@ -1,0 +1,8 @@
+required software:
+1. python
+2. pycharm
+3. git
+4. klayout + kqcircuits
+5. zotero
+6. lyx
+7. HFSS(?)
